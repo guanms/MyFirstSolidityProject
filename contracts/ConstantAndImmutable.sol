@@ -16,14 +16,14 @@ contract ConstantAndImmutable {
 
     uint constant x = 1;
 
-    uint constant y = "0xAA";
+    uint constant y = 0xAA;
 
     bytes constant z = "WTF";
 
     address constant constant_address = 0x5B38Da6a701c568545dCfcB03FcB875f56beddC4;
 
     uint public immutable immutable_x = 1;
-    uint public immutable immutable_address;
+    address public immutable immutable_address;
     uint public immutable immutable_y;
     uint public immutable immutable_z;
 
