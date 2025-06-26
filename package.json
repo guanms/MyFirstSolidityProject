@@ -14,6 +14,7 @@
     "@nomicfoundation/hardhat-toolbox": "^5.0.0",
     "@typechain/hardhat": "^9.1.0",
     "hardhat": "^2.22.19",
+    "mocha": "^11.7.0",
     "ts-node": "^10.9.2",
     "tsx": "^4.19.3",
     "typescript": "^5.8.2"
