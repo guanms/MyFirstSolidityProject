@@ -2,7 +2,7 @@
 pragma solidity ^0.8.10;
 
 contract Donation {
-    enent Donated(address indexed donor, uint256 amount);
+    event Donated (address indexed donor, uint256 amount);
 
     receive() external payable {
         emit Donated(msg.sender, msg.value);
